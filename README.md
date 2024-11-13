@@ -53,7 +53,7 @@ There is an additional file, are named “##_stim.mat” in the folder data/##, 
 How to Use the Trained Model:
 The trained model is saved as ‘finger_movement_classification_model.keras’. You can download it in the GitHub repository where this project is located. After downloading, place the file in the project directory and use the following code to load the model in your notebook: 
 
-From tensorflow.keras.models import load_model
+From tensorflow.keras.models import load_model 
 
 model = load_model(‘finger_movement_classification_model.keras’)
 
